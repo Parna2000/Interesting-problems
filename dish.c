@@ -2,3 +2,23 @@
 
 // algo: B>=N
 // A+C>=N
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n, a, b, c;
+    printf("Enter the number of guests:\n");
+    scanf("%d", &n);
+    printf("Enter the number of vegetabes, fruits, fishes:\n");
+    scanf("%d %d %d", &a, &b, &c);
+    if (a >= n && (a + c) >= n)
+    {
+        printf("Yes, Chef can feed all guests.\n");
+    }
+    else
+    {
+        printf("Sorry, Chef cannot feed all guests\n");
+    }
+    return 0;
+}
