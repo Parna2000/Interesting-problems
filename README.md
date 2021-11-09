@@ -1,2 +1,2 @@
 # Interesting-problems
-Enjoy learning C
+Enjoy learning C/C++
